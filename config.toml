@@ -6,13 +6,6 @@ parallel-jobs = 1
 
 # you can use rvmm-config-gen to generate a config
 
-patcher-args = """\
-  -oappIcon=`Revancify Red` \
-  -OdarkThemeBackgroundColor=`@android:color/black` \
-  -OappName=`YouTube` \
-  -oBackgroundColor=`android:color/transparent` \
-  """
-
 [YouTube]
 patches-source = "anddea/revanced-patches"
 patches-version = "dev"
@@ -27,6 +20,12 @@ uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 included-patches = "'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Force player buttons background' 'Hide animated button background' 'Hide double tap to like animations' 'Hide voice search button' 'Theme'"
 excluded-patches = "'Append time stamps information' 'Custom header for YouTube' 'Spoof sreaming data' 'Custom double tap length' 'Custom package name' 'Enable wide search bar' 'Keep landscape mode' 'Layout switch' 'Translations for YouTube' 'Change player flyout panel toggles'"
 # version = "19.16.39"
+patcher-args = """\
+  -oappIcon=`Revancify Red` \
+  -OdarkThemeBackgroundColor=`@android:color/black` \
+  -OappName=`YouTube` \
+  -oBackgroundColor=`android:color/transparent` \
+  """
 
 [Music]
 enabled = false
