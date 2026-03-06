@@ -1,6 +1,6 @@
 {
-  "version": "v20.05.46 (patches dev.5.mpp)",
-  "versionCode": 6,
-  "zipUrl": "https://github.com/hldr4/rxv_andd/releases/download/6/youtube-rvx-anddea-module-v20.05.46-all.zip",
+  "version": "v20.05.46 (patches dev.6.mpp)",
+  "versionCode": 7,
+  "zipUrl": "https://github.com/hldr4/rxv_andd/releases/download/7/youtube-rvx-anddea-module-v20.05.46-arm64-v8a.zip",
   "changelog": "https://raw.githubusercontent.com/hldr4/rxv_andd/update/build.md"
 }
