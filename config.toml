@@ -1,6 +1,5 @@
 enable-module-update = true # set this to false if you do not want to receive updates for the module
 parallel-jobs = 3
-remove-rv-integrations-checks = true
 
 # add 'enabled = false' for not patching a specific app or remove it from the config
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
@@ -11,7 +10,7 @@ remove-rv-integrations-checks = true
 patches-source = "anddea/revanced-patches"
 patches-version = "dev"
 cli-source = "MorpheApp/morphe-cli"
-cli-version = "v1.5.0-dev.11"
+cli-version = "dev"
 module-prop-name = "YT-RVX"
 rv-brand = "RVX anddea"
 build-mode = "both"
